@@ -1,0 +1,24 @@
+Important things for Time Complexity:
+
+for 10^8 iterations we need 1 second
+O(n) -> linear complexity (it means one loop that goes upto highest n)
+O(n^2) -> linear complexity (it means two nested for loop that goes upto highest n)
+O(n^3) -> linear complexity (it means three nested for loop that goes upto highest n)
+/*
+for(int i=0;i<n;i++) // n times iteration complexity O(n)
+for(int i=0;i<n;i++) for(int j=0;j<n;j++)// n*n times iteration complexity O(n*n)
+*/
+
+
+Important things for Memory Complexity:
+
+int 16 bits
+long 32 bits
+long long 64 bits
+unsigned long long 65 bits
+float 32 bits
+double 64 bits
+char 1 bit
+
+1 byte = 8 bits
+1 MB = 1000000 bytes = 8000000 bits
